@@ -4,60 +4,64 @@
   <head>
     <title>Countdown to Smackdown!</title>
     <style>
-      body {
-        background-color: #1b1d21;
-        color: #ffffff;
-        font-family: Arial, sans-serif;
-        text-align: center;
-      }
+     body {
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
-      h1 {
-        font-size: 3em;
-        margin-top: 0;
-      }
+  #countdown {
+    font-size: 100px;
+    text-align: center;
+    margin-top: 200px;
+    color: #4d4dff;
+  }
 
-      #countdown {
-        font-size: 4em;
-        margin-bottom: 20px;
-      }
+  #countdown span {
+    font-size: 50px;
+    vertical-align: top;
+  }
 
-      #countdown span {
-        display: inline-block;
-        min-width: 2em;
-        background-color: #8e8e8e;
-        padding: 10px;
-        border-radius: 5px;
-        margin-right: 5px;
-      }
+  #countdown span:first-child {
+    padding-right: 20px;
+  }
 
-      #countdown span:nth-child(2) {
-        border: none;
-        background-color: #565656;
-      }
+  #subscribe-form {
+    margin-top: 50px;
+    text-align: center;
+  }
 
-      #notify-container {
-        margin-top: 20px;
-      }
+  #subscribe-form label {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    color: #4d4dff;
+  }
 
-      #notify-container input[type="email"],
-      #notify-container input[type="tel"] {
-        font-size: 1.2em;
-        padding: 10px;
-        border-radius: 5px;
-        border: none;
-        margin-right: 5px;
-        margin-bottom: 5px;
-      }
+  #subscribe-form input {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+  }
 
-      #notify-container button {
-        font-size: 1.2em;
-        padding: 10px;
-        border-radius: 5px;
-        border: none;
-        background-color: #565656;
-        color: #ffffff;
-        cursor: pointer;
-      }
+  #subscribe-form button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4d4dff;
+    color: white;
+    cursor: pointer;
+  }
+
+  #subscribe-form button:hover {
+    background-color: #3333ff;
+  }
     </style>
   </head>
   <body>
